@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(fceedd69-c604-4f91-a514-94be0a617a93), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/s4n/Downloads/Scala/Eval/listainversa/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/Scala/Eval/listainversa/src/main/scala/co/s4n/listas/Main.scala:29:13: value split is not a member of co.s4n.listas.Lista[0m
+[0m[[0m[31merror[0m] [0m[0m        lst.split("\\D+").filter(_.nonEmpty).toList[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Sep 23, 2021, 2:45:25 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
