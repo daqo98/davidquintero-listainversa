@@ -1,4 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/Scala/Eval/listainversa/src/main/scala/co/s4n/listas/Main.scala:29:13: value split is not a member of co.s4n.listas.Lista[0m
-[0m[[0m[31merror[0m] [0m[0m        lst.split("\\D+").filter(_.nonEmpty).toList[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/s4n/Downloads/Scala/Eval/listainversa/src/main/scala/co/s4n/listas/Main.scala:29:51: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Vacia()[0m
+[0m[[0m[33mwarn[0m] [0m[0m        def ListaAsListInt(lst:Lista):List[Int] = lst match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/s4n/Downloads/Scala/Eval/listainversa/src/main/scala/co/s4n/listas/Main.scala:49:52: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Vacia()[0m
+[0m[[0m[33mwarn[0m] [0m[0m        def extractIntAsString(lst:Lista):String = lst match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/s4n/Downloads/Scala/Eval/listainversa/src/main/scala/co/s4n/listas/Main.scala:62:52: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Vacia()[0m
+[0m[[0m[33mwarn[0m] [0m[0m        def InvertAsListInt(lst:Lista):List[Int] = lst match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
